@@ -1,7 +1,7 @@
 "use client"
 import Link from "next/link";
 import React, { useState } from "react";
-import Rating from "./rating";
+import Rating from "@/components/Rating";
 
 function ProductCard({ card }) {
     const [count,setCount] = useState(0)

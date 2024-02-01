@@ -6,8 +6,6 @@ function Rating({rating}) {
   return (
     <div className="rating">
         {stars.map(each=><input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" checked={each===rating} />)}
-        {/* {Array(rating).fill().map(each=><input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" checked />)}
-        {Array(grayStar).fill().map(each=><input type="radio" name="rating-4" className="mask mask-star-2 bg-green-500" />)} */}
     </div>
   )
 }
